@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crestpoint Enquiry</title>
+  <meta name="description" content="Crestpoint: Cleaning, Contracting Services & General Consultation in Qatar. Get a free quote today!">
+  <meta name="keywords" content="cleaning, contracting, consultation, Qatar, deep cleaning, renovations">
+  <meta property="og:title" content="Crestpoint Enquiry">
+  <meta property="og:description" content="Top-tier cleaning and contracting services. Get a free quote now!">
+  <meta property="og:image" content="logo 2.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="logo 2.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-logo"></div>
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#enquiry-form">Enquiry</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <img src="logo 2.jpg" alt="Crestpoint Gold Lion Head Logo" class="hero-logo">
+    <div class="hero-title">CRESTPOINT</div>
+    <div class="hero-tagline">Cleaning, Contracting Services & General Consultation</div>
+    <a href="#enquiry-form" class="hero-cta">Get a Free Quote</a>
+  </section>
+
+  <section class="services-section" id="services">
+    <div class="service-card">
+      <div class="service-icon">🧹</div>
+      <div class="service-title">Deep Cleaning</div>
+      <div class="service-desc">Homes, offices, and facilities deep cleaning for a fresh start.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🚚</div>
+      <div class="service-title">Man Power Procurement</div>
+      <div class="service-desc">Thorough cleaning for moving in or out of your property.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏗️</div>
+      <div class="service-title">Post-Construction</div>
+      <div class="service-desc">Cleanup after construction or renovation projects.</div>
+    </div>
+    <!-- Add more service cards as needed -->
+  </section>
+
+  <div class="enquiry-form-container" id="enquiry-form">
+    <h2>Send Us Your Enquiry</h2>
+    <form id="enquiry-form" autocomplete="off">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required aria-required="true">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="service">Service:</label>
+          <select id="service" required aria-required="true">
+            <option value="">-- Select a Service --</option>
+            <option>DEEP CLEANING (HOMES, OFFICES, FACILITIES)</option>
+            <option>MOVE-IN/MOVE-OUT CLEANING</option>
+            <option>POST-CONSTRUCTION CLEANUP</option>
+            <option>CARPET & UPHOLSTERY CLEANING</option>
+            <option>DISINFECTION & SANITIZATION</option>
+            <option>GENERAL REPAIRS & MAINTENANCE</option>
+            <option>INTERIOR RENOVATIONS</option>
+            <option>PAINTING & FINISHING</option>
+            <option>ELECTRICAL & PLUMBING WORKS</option>
+            <option>FLOOR & CEILING INSTALLATION</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="enquiry">Your Enquiry:</label>
+        <textarea id="enquiry" rows="4" required aria-required="true"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+      <div id="form-message"></div>
+    </form>
+  </div>
+
+  <section class="testimonials-section">
+    <div class="testimonial">
+      "Crestpoint transformed our office! Professional and thorough service."
+      <div class="testimonial-author">– Sarah A.</div>
+    </div>
+    <div class="testimonial">
+      "Highly recommend for move-out cleaning. Fast and reliable!"
+      <div class="testimonial-author">– Ahmed K.</div>
+    </div>
+  </section>
+
+  <section id="contact" style="max-width:700px;margin:32px auto 0 auto;text-align:center;">
+    <h2>Contact Us</h2>
+    <p>
+      <b>Phone:</b>
+      <a href="tel:+97431562347" style="color:#001f3f;font-weight:bold;">+974 31562347</a>
+      <br>
+      <b>Email:</b>
+      <a href="mailto:crestpoint564@gmail.com" style="color:#001f3f;">crestpoint564@gmail.com</a>
+      <br>
+      <b>Mail address:</b><br>
+      Flr 19, E18hteen Tower
+    </p>
+    <iframe
+      src="https://www.google.com/maps?q=E18hteen+Tower,+Qatar&output=embed"
+      width="300"
+      height="200"
+      style="border:0;border-radius:12px;margin-top:12px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Our Location"></iframe>
+  </section>
+
+  <div class="social-links">
+    <a href="https://wa.me/97431562347" target="_blank" title="WhatsApp">
+      <img src="whatsapp-logo.png" alt="WhatsApp" style="width:32px;height:32px;border-radius:8px;vertical-align:middle;">
+    </a>
+    <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram">📸</a>
+    <a href="mailto:crestpoint564@gmail.com" title="Email">✉️</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Crestpoint. All rights reserved. |
+    <a href="privacy.html" style="color:#ffd700;">Privacy Policy</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    emailjs.init("eK16TF8w7kle_p0nv");
+
+    document.getElementById('enquiry-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const userData = {
+        name: document.getElementById('name').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        service: document.getElementById('service').value,
+        enquiry: document.getElementById('enquiry').value.trim()
+      };
+      const formMessage = document.getElementById('form-message');
+      formMessage.textContent = "Submitting your enquiry...";
+
+      emailjs.send("service_6mghz4v", "template_l8cphqd", userData)
+        .then(function(response) {
+          formMessage.textContent = "Your enquiry was sent successfully via email!";
+          formMessage.style.color = "#001f3f";
+          document.getElementById('enquiry-form').reset();
+        }, function(error) {
+          formMessage.textContent = "Oops! Something went wrong while sending your enquiry.";
+          formMessage.style.color = "red";
+          console.log(error);
+        });
+    });
+  </script>
+  <!-- Google Analytics Example (replace UA-XXXXXXX-X with your ID)
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXX-X');
+  </script>
+  -->
+</body>
+</html>
